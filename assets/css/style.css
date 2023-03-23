@@ -1,0 +1,115 @@
+
+body {
+    margin: auto;
+    background-color: #EDEDF6;
+}
+
+header {
+    background-color: #31343D;
+    color:#31343D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color:#92CCCD;
+    font-size: 1.5em;
+    border-bottom: 3px solid #92CCCD;
+}
+
+header nav {
+    padding-right: 60px;
+}
+
+h1 {
+    background-color: #92CCCD;
+    font-size: xxx-large;
+    padding-left: 145px;
+    padding-right: 20px;
+}
+
+.headerimg {
+    display: flex;
+    height: 200px;
+    width: auto;
+    margin: 0;
+    justify-content: right;
+}
+
+#banner {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.aboutme {
+    display: flex;
+}
+
+
+figcaption {
+    background-color: black;
+    color: white;
+    max-width: 400px;
+    display: block;
+    position: absolute;
+  }
+
+#bigpic {
+    display: flex;
+    justify-content: space-evenly;
+    width: 87%;
+    margin: 0;
+}
+
+#big{
+    width: 55rem;
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.smallpic{
+    width: 30rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.projectimg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: flex-end;
+    gap: 20px 20px;
+    margin-bottom: 30px;
+
+}
+
+footer {
+   display: flex;
+   justify-content: space-around;
+}
+
+#aboutheader {
+    padding-left: 16rem;
+}
+
+#abouttext {
+    font-size: 1.3rem;
+    padding-left: 80px;
+}
+
+figure {
+    margin: 0;
+}
