@@ -28,13 +28,6 @@ header nav {
     padding-right: 60px;
 }
 
-h1 {
-    background-color: #92CCCD;
-    font-size: xxx-large;
-    padding-left: 145px;
-    padding-right: 20px;
-}
-
 .headerimg {
     display: flex;
     height: 200px;
@@ -52,6 +45,7 @@ h1 {
 
 .aboutme {
     display: flex;
+    width: 75%;
 }
 
 
@@ -101,10 +95,6 @@ footer {
    justify-content: space-around;
 }
 
-#aboutheader {
-    padding-left: 16rem;
-}
-
 #abouttext {
     font-size: 1.3rem;
     padding-left: 80px;
@@ -112,4 +102,31 @@ footer {
 
 figure {
     margin: 0;
+}
+
+h1 {
+    color: #31343D;
+    background-color: #92CCCD;
+    padding-left: 10rem;
+    font-size: 3.0rem;
+}
+
+#aboutheader {
+    margin-left: 14rem;
+    font-size: 3rem;
+    text-align: end;
+    border-right: solid blue;
+    padding-right: 1rem;
+}
+
+#contactinfo {
+    margin-right: 30rem;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: end;
+    border-right: solid blue;
+    margin-left: 3rem;
+    padding-right: 1rem;
 }
