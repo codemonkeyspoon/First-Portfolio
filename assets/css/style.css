@@ -43,7 +43,7 @@
   .herobanner {
     display: flex;
     height: 15rem;
-    background-image: url(/assets/images/02-hero-bg.jpg);
+    background-image: url(../images/02-hero-bg.jpg);
     background-size: cover;
     justify-content: flex-end;
     align-items: flex-end;
@@ -86,7 +86,7 @@
     height: 30rem;
     width: 60rem;
     margin-bottom: 1rem;
-    background-image: url(/assets/images/02-portfolio-4.jpg);
+    background-image: url(../images/02-portfolio-4.jpg);
     background-size: cover;
 }
 
@@ -106,22 +106,22 @@
 }
 
 #project2 {
-    background-image: url(/assets/images/02-portfolio-1.jpg);
+    background-image: url(../images/02-portfolio-1.jpg);
     background-size: cover;
 }
 
 #project3 {
-    background-image: url(/assets/images/02-portfolio-2.jpg);
+    background-image: url(../images/02-portfolio-2.jpg);
     background-size: cover;
 }
 
 #project4 {
-    background-image: url(/assets/images/02-portfolio-3.jpg);
+    background-image: url(../images/02-portfolio-3.jpg);
     background-size: cover;
 }
 
 #project5 {
-    background-image: url(/assets/images/02-run-buddy.jpg);
+    background-image: url(../images/02-run-buddy.jpg);
     background-size: cover;
 }
 
