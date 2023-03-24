@@ -1,132 +1,130 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* brand color palette */
+  :root {
+    --primary: rgba(68, 88, 119, 1);
+    --secondary: rgba(146, 204, 206, 1);
+    --tertiary: rgba(49, 52, 61, 1);
+    --dark: rgba(28, 29, 33, 1);
+    --light: rgba(238, 238, 247, 1);
+  }
 
-body {
-    margin: auto;
-    background-color: #EDEDF6;
+  li {
+    list-style-type: none;
+  }
+
+  ul {
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--primary);
+    background-color: var(--light);
+    line-height: 1.5;
+  }
+
+  header {
+    display: flex;
+    background-color: var(--dark);
+    color: var(--secondary);
+    justify-content: space-around;
+  }
+
+  nav {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .herobanner {
+    display: flex;
+    height: 15rem;
+    background-image: url(/assets/images/02-hero-bg.jpg);
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .herobanner h2 {
+    color: var(--tertiary);
+  }
+
+  main {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .page-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 3rem;
+  }
+
+  #about div {
+    flex: 0 60rem;
+  }
+
+  h2 {
+    border-right: solid;
+    flex-basis: 7rem;
+    text-align: end;
+    padding-right: 10px;
+    margin-right: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+
+#mainpic {
+    background-color: black;
+    height: 30rem;
+    width: 60rem;
+    margin-bottom: 1rem;
+    background-image: url(/assets/images/02-portfolio-4.jpg);
+    background-size: cover;
 }
 
-header {
-    background-color: #31343D;
-    color:#31343D;
+#smallpics {
     display: flex;
-    align-items: center;
+    width: 60rem;
+    gap: 1rem;
+    height: 15rem;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-header nav ul {
-    list-style-type: none;
+#smallpics div {
+    width: 29rem;
+    background-color: blue;
 }
 
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-    color:#92CCCD;
-    font-size: 1.5em;
-    border-bottom: 3px solid #92CCCD;
+#project2 {
+    background-image: url(/assets/images/02-portfolio-1.jpg);
+    background-size: cover;
 }
 
-header nav {
-    padding-right: 60px;
+#project3 {
+    background-image: url(/assets/images/02-portfolio-2.jpg);
+    background-size: cover;
 }
 
-.headerimg {
-    display: flex;
-    height: 200px;
-    width: auto;
-    margin: 0;
-    justify-content: right;
+#project4 {
+    background-image: url(/assets/images/02-portfolio-3.jpg);
+    background-size: cover;
 }
 
-#banner {
-    width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
+#project5 {
+    background-image: url(/assets/images/02-run-buddy.jpg);
+    background-size: cover;
 }
 
-.aboutme {
-    display: flex;
-    width: 75%;
-}
-
-
-figcaption {
-    background-color: black;
-    color: white;
-    max-width: 400px;
-    display: block;
-    position: absolute;
-  }
-
-#bigpic {
-    display: flex;
-    justify-content: space-evenly;
-    width: 87%;
-    margin: 0;
-}
-
-#big{
-    width: 55rem;
-    margin-bottom: 20px;
-}
-
-.projects {
-    display: flex;
-    flex-direction: column;
-}
-
-.smallpic{
-    width: 30rem;
-    height: 10rem;
-    object-fit: cover;
-}
-
-.projectimg {
-    display: flex;
-    flex-wrap: wrap;
-    width: 75%;
-    justify-content: flex-end;
-    gap: 20px 20px;
-    margin-bottom: 30px;
-
-}
-
-footer {
-   display: flex;
-   justify-content: space-around;
-}
-
-#abouttext {
-    font-size: 1.3rem;
-    padding-left: 80px;
-}
-
-figure {
-    margin: 0;
-}
-
-h1 {
-    color: #31343D;
-    background-color: #92CCCD;
-    padding-left: 10rem;
-    font-size: 3.0rem;
-}
-
-#aboutheader {
-    margin-left: 14rem;
-    font-size: 3rem;
-    text-align: end;
-    border-right: solid blue;
-    padding-right: 1rem;
-}
-
-#contactinfo {
-    margin-right: 30rem;
-}
-
-h2 {
-    font-size: 3rem;
-    text-align: end;
-    border-right: solid blue;
-    margin-left: 3rem;
-    padding-right: 1rem;
+footer div {
+    width: 60rem;
 }

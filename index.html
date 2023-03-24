@@ -8,63 +8,63 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <!--header and nav-->
     <header>
         <h1>Xaviar Witherspoon</h1>
         <nav>
-            <ul>
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact Me</li>
-                <li>Resume</li>
-            </ul>
+            <ul>About Me</ul>
+            <ul>Work</ul>
+            <ul>Contact Me</ul>
+            <ul>Resume</ul>
         </nav>
     </header>
-    <section>
-        <figure class="headerimg">
-            <img src="./assets/markus-spiske-cvBBO4PzWPg-unsplash.jpg" alt="" id="banner">
-            <figcaption>Professional Nerd</figcaption>
-        </figure>
+
+    <!--banner and subtitle-->
+    <section class="herobanner">
+        <h2>Professional Nerd!</h2>
     </section>
-    <section class="aboutme">
-        <h2 id="aboutheader">About Me</h2>
-        <p id="abouttext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae distinctio enim veniam molestiae. Nihil facilis voluptas qui repellendus velit atque enim beatae, quo maxime ullam omnis doloribus animi ad delectus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio nostrum cum repellendus, assumenda iusto saepe praesentium voluptas pariatur quisquam eligendi repudiandae debitis! Laborum exercitationem voluptatum, iure esse asperiores voluptates inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa atque aliquam minima? Asperiores at facilis possimus rem tempore esse accusamus, quasi reiciendis, sapiente vel ducimus nobis labore earum quae placeat
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestias vel soluta ipsam distinctio modi culpa harum, et nam ipsum doloremque sunt, illo hic sed maiores incidunt aliquam, odio tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odio sit, quidem unde quaerat a dolor iste doloribus porro ratione et recusandae quam! Eum quidem illo aut cumque eaque omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere maiores aspernatur illo, velit qui esse distinctio nulla aut quos laudantium quod natus ut nostrum obcaecati deserunt adipisci excepturi perferendis cupiditate. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatem quaerat, velit consectetur soluta harum aperiam placeat voluptatum praesentium optio exercitationem nulla accusantium corrupti accusamus molestias at illum veniam adipisci.
-        </p>
-    </section>
-    <section class="projects">
-        <figure id="bigpic">
+
+    <!--main content-->
+    <main>
+        <!--about me content-->
+        <section class="page-section" id="about">
+            <h2>About Me</h2>
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit minus repudiandae natus sit aspernatur, asperiores fuga, dolore, eligendi voluptas qui cum. Ea rem alias sed placeat voluptatem eligendi sapiente est? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, impedit dolorem tenetur veniam ipsum delectus doloremque eum sit consequatur, doloribus suscipit magni esse debitis tempore id voluptatum vel velit odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci laboriosam sit sint id, reprehenderit nostrum sapiente, excepturi commodi ea aperiam dolorum. Ratione laboriosam quos rem maxime recusandae, autem eaque nam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel ratione quod similique, necessitatibus eaque quae nam adipisci natus rem quos ducimus explicabo dignissimos, nisi autem beatae accusamus molestias saepe aliquam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla officiis dicta consequuntur odio expedita illo aperiam hic, veniam quam repellendus maxime id eum. Fugit incidunt ab a aliquam nihil nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusantium adipisci labore, porro quod libero sed, autem ex quasi inventore consectetur quisquam ipsa eos molestiae soluta pariatur illo excepturi! Quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, dolorem natus. Enim ipsa earum qui expedita, laboriosam fugiat debitis doloribus, optio culpa et eligendi reiciendis officiis unde nisi incidunt cumque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis molestias deleniti harum nihil placeat fuga veniam ad! Impedit fuga doloribus modi harum exercitationem. Saepe qui fugit sint explicabo, quae ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis excepturi unde labore expedita perferendis hic ea iusto, dolorem mollitia qui iste cum, sapiente sint velit, magnam accusamus incidunt eum assumenda.</p>
+            </div>
+        </section>
+        <!--work section-->
+        <section class="page-section" id="work">
             <h2>Work</h2>
-            <img src="./assets/alexandru-acea-XEB8y0nRRP4-unsplash.jpg" id="big" alt="">
-        </figure>
-        <div class="projectimg">
-            <figure><img class="smallpic" src="./assets/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt=""></figure>
-            <figure><img class="smallpic" src="./assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt=""></figure>
-            <figure><img class="smallpic" src="./assets/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg" alt=""></figure>
-            <figure><img class="smallpic" src="./assets/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" alt=""></figure>
-        </div>
+        <!--flexbox for positioning pictures-->
+            <div class="gallery">
+        <!--main picture-->
+            <div id="mainpic">1</div>
+        <!--arranged pictures-->
+            <div id="smallpics">
+                <div id="project2">2</div>
+                <div id="project3">3</div>
+                <div id="project4">4</div>
+                <div id="project5">5</div>
+            </div>
+            </div>
+        </section>
+        <!--end work section-->
 
+        <footer class="page-section">
+            <h2 id="contacttext">Contact</h2>
+            <div>
+                <ul>
+                    <li>555-555-5555</li>
+                    <li>xjwithers@gmail.com</li>
+                    <li>Github</li>
+                    <li>Twitter</li>
+                    <li>Spotify</li>
+                </ul>
+            </div>
+        </footer>
 
-
-
-
-
-
-
-
-
-
-
-        <!---<ul class="projectimg">
-            <li><img class="smallpic" src="./assets/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt=""></li>
-            <li><img class="smallpic" src="./assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt=""></li>
-            <li><img class="smallpic" src="./assets/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg" alt=""></li>
-            <li><img class="smallpic" src="./assets/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" alt=""></li>
-        </ul>--->   
-
-    </section>
-    <footer> 
-        <h2 id="contactinfo">Contact Me</h2>
-        <p>321-890-7978 xjwithers$gmail.com Github Twitter Spotify</p>
-    </footer>
+    </main>
 </body>
 </html>
