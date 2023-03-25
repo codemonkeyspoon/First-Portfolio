@@ -16,5 +16,8 @@ This project is part of my week 2 challenge. The purpose of this project is to d
 
 ### Resposiveness
 
+![Responsiveness2](./assets/readme-img/response2.PNG)
+
 ![Responsiveness](./assets/readme-img/resposiveness.PNG)
+
 
