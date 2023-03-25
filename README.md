@@ -1,2 +1,20 @@
 # First-Portfolio
-Module 2 challenge
+
+## Description
+
+This project is part of my week 2 challenge. The purpose of this project is to demonstrate my understanding and usage of flex-box and advanced CSS styling techniques. the site can be accessed here: https://codemonkeyspoon.github.io/First-Portfolio/ 
+
+## Site Preview
+
+![Site Preview](../First-Portfolio/assets/readme-img/Capture.PNG)
+
+## Features
+
+### Hover Effects
+
+![Hover Effects](../First-Portfolio/assets/readme-img/hover-effect.PNG)
+
+### Resposiveness
+
+![Responsiveness](../First-Portfolio/assets/readme-img/resposiveness.PNG)
+
