@@ -6,15 +6,15 @@ This project is part of my week 2 challenge. The purpose of this project is to d
 
 ## Site Preview
 
-![Site Preview](../First-Portfolio/assets/readme-img/Capture.PNG)
+![Site Preview](./assets/readme-img/Capture.PNG)
 
 ## Features
 
 ### Hover Effects
 
-![Hover Effects](../First-Portfolio/assets/readme-img/hover-effect.PNG)
+![Hover Effects](./assets/readme-img/hover-effect.PNG)
 
 ### Resposiveness
 
-![Responsiveness](../First-Portfolio/assets/readme-img/resposiveness.PNG)
+![Responsiveness](./assets/readme-img/resposiveness.PNG)
 
