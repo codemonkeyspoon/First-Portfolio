@@ -118,10 +118,12 @@
     background:linear-gradient(0deg, var(--transblue), var(--transblue)), url(../images/02-portfolio-4.jpg);
     transition: all 0.25s ease-in;
     background-size: cover;
+    border: 5px solid var(--secondary);
 }
 
 #mainpic:hover {
-  background:linear-gradient(0deg, var(--transblue), var(--translight)), url(../images/02-portfolio-4.jpg)
+  background:linear-gradient(0deg, var(--transblue), var(--translight)), url(../images/02-portfolio-4.jpg);
+  background-size: cover;
 
 }
 
@@ -140,11 +142,19 @@
 #project4,
 #project5  {
     width: 29rem;
+    border: 5px solid var(--secondary);
 }
+
 
 #project2 {
     background:linear-gradient(0deg, var(--transblue), var(--transblue)), url(../images/02-portfolio-1.jpg);
     background-size: cover;
+}
+
+#project2:hover {
+  background:linear-gradient(0deg, var(--transblue), var(--translight)), url(../images/02-portfolio-1.jpg);
+  background-size: cover;
+
 }
 
 #project3 {
@@ -152,14 +162,32 @@
     background-size: cover;
 }
 
+#project3:hover {
+  background:linear-gradient(0deg, var(--transblue), var(--translight)), url(../images/02-portfolio-2.jpg);
+  background-size: cover;
+
+}
+
 #project4 {
   background:linear-gradient(0deg, var(--transblue), var(--transblue)), url(../images/02-portfolio-3.jpg);
     background-size: cover;
 }
 
+#project4:hover {
+  background:linear-gradient(0deg, var(--transblue), var(--translight)), url(../images/02-portfolio-3.jpg);
+  background-size: cover;
+
+}
+
 #project5 {
   background:linear-gradient(0deg, var(--transblue), var(--transblue)), url(../images/02-run-buddy.jpg);
     background-size: cover;
+}
+
+#project5:hover {
+  background:linear-gradient(0deg, var(--transblue), var(--translight)), url(../images/02-run-buddy.jpg);
+  background-size: cover;
+
 }
 
 footer div {
@@ -233,3 +261,65 @@ footer a:hover {
   color: var(--primary);
   padding-right: 10px;
 }
+
+@media (max-width: 1219px) {
+  main h2 {
+    border-right: unset;
+    border-bottom: solid;
+    text-align: unset;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-right: unset;
+    margin-right: unset;
+    margin-bottom: unset;
+    flex-basis: unset;
+    flex-basis: 60rem;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1059px) {
+  footer div {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1015px) {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #mainpic {
+    width: 29rem;
+  }
+
+  #smallpics {
+    flex-direction: column;
+    align-items: center;
+    height: 50rem;
+  }
+
+  #project2,
+  #project3,
+  #project4,
+  #project5 {
+    height: 11rem;
+  } 
+}
+
+@media (max-width: 815px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
