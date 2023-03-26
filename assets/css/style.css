@@ -332,5 +332,9 @@ footer a:hover {
     display: inline-flex;
     flex-direction: column;
   }
+
+  h1 {
+    padding: 0;
+  }
 }
 
