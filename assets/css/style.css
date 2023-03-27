@@ -144,6 +144,7 @@
 #project5  {
     width: 29rem;
     border: 5px solid var(--secondary);
+    height: 10rem;
 }
 
 
@@ -261,6 +262,10 @@ footer a:hover {
   padding-left: 60px;
   color: var(--primary);
   padding-right: 10px;
+}
+
+main a {
+  text-decoration:none;
 }
 
 @media (max-width: 1219px) {
