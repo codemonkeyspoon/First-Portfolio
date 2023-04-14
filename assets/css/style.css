@@ -116,14 +116,14 @@
     height: 30rem;
     width: 60rem;
     margin-bottom: 1rem;
-    background:linear-gradient(0deg, var(--transblue), var(--transblue)), url(../images/02-portfolio-4.jpg);
+    background:linear-gradient(0deg, var(--transblue), var(--transblue)), url(../images/dis-Covermusic.PNG);
     transition: all 0.25s ease-in;
     background-size: cover;
     border: 5px solid var(--secondary);
 }
 
 #mainpic:hover {
-  background:linear-gradient(0deg, var(--transblue), var(--translight)), url(../images/02-portfolio-4.jpg);
+  background:linear-gradient(0deg, var(--transblue), var(--translight)), url(../images/dis-Covermusic.PNG);
   background-size: cover;
 
 }
