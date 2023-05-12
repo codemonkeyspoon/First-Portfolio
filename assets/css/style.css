@@ -149,18 +149,18 @@
 
 
 #project2 {
-    background:linear-gradient(0deg, var(--transblue), var(--transblue)), url(../images/project2.png);
-    
+    background:linear-gradient(0deg, var(--transblue), var(--transblue)), url(../images/project2.PNG);
+    background-size: cover;
 }
 
 #project2:hover {
-  background:linear-gradient(0deg, var(--transblue), var(--translight)), url(../images/project2.png);
-  
+  background:linear-gradient(0deg, var(--transblue), var(--translight)), url(../images/project2.PNG);
+  background-size: cover;
 
 }
 
 #project3 {
-  background:linear-gradient(0deg, var(--transblue), var(--transblue)), url(../images/02-portfolio-2.jpg);
+  background:linear-gradient(0deg, var(--transblue), var(--transblue)), url(../images/02-portfolio-2.PNG);
     background-size: cover;
 }
 
